@@ -1,0 +1,29 @@
+{
+  "name": "leakybucket",
+  "version": "0.0.1",
+  "description": "Traffic shaping utility to throttle the rate of job accepting and processing",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "mocha test/unit-test.js",
+    "coverage": "istanbul cover $HOME/.nvm/versions/node/v6.1.0/bin/_mocha test/unit-test.js",
+    "lint": "./node_modules/.bin/eslint ./src/*.js"
+  },
+  "author": "Ming L. <itestmycode@gmail.com>",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itestmycode/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.17.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^2.1.0"
+  },
+  "engines": {
+    "node": "6.1.0",
+    "npm": "3.8.6"
+  }
+}
